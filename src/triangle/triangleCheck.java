@@ -10,6 +10,9 @@ package triangle;
  * @author alexa
  */
 public class triangleCheck {
+
+    public triangleCheck() {
+    }
     
     
     

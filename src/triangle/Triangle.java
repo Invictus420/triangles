@@ -16,7 +16,9 @@ public class Triangle {
      */
     public static void main(String[] args) {
         
+        triangleCheck tc = new triangleCheck();
         
+        tc.check(1, 2, 3);
         
         
     }
