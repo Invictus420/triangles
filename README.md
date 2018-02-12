@@ -3,7 +3,7 @@
 check(int a, int b, int c)
 
 | Input | Expected | Actual |
-| —---------— |:-------------😐 —---😐
+| ----------- |:-------------:| ----:|
 | 1, 2, 2 | isosceles triangle |  |
 | 2, 3, 2 | isosceles triangle |  |
 | 2, 2, 7 | isosceles triangle |  |
