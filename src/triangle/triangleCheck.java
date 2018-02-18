@@ -14,20 +14,24 @@ public class triangleCheck {
     public triangleCheck() {
     }
     
+    /**
+     *
+     * @param a
+     * @param b
+     * @param c
+     */
+    public String check(int a, int b, int c){
     
-    
-    public void check(int a, int b, int c){
-    
-        if(a<= 0 || b<=0 || c<=0){
-            System.out.println("NOPE!!!");
+        if(a<= 0 || b<=0 || c<=0||a>= b+c || b>=c+a||c>=a+b){
+            return "NOPE!!!";
         }
         else if(a==b && b==c){
-            System.out.println("Equilateral");
+            return "Equilateral";
         }
         else if((a==b && b!=c)||(a==c && a!=b)||(b==c && b!=a)){
-            System.out.println("Isoceles");
+            return "Isoceles";
         }
-        else System.out.println("Scalene");
+        else return "Scalene";
         
     }
     
